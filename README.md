@@ -105,6 +105,7 @@ If any URLs have a HIGH risk, you can send an email alert.
 
 Note: You need to set up the email configuration in dashboard.py.
 </ins>
+
 📘 Example Usage
 
 1️⃣ Terminal Mode
