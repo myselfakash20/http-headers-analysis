@@ -90,7 +90,7 @@ This will launch a web-based dashboard.
 
 **How to Use the Dashboard**
 
-<ins>
+
 Enter a URL or Upload a File (CSV or TXT) with URLs.
 Customize Header Risk Weights: Set the priority (risk weight) for each header.
 Click "Scan URLs": The tool will scan and display the following:
@@ -104,13 +104,15 @@ Email Alerts (Optional)
 If any URLs have a HIGH risk, you can send an email alert.
 
 Note: You need to set up the email configuration in dashboard.py.
-</ins>
 
-📘 Example Usage
 
-1️⃣ Terminal Mode
+**📘 Example Usage**
 
-python http_headers_analysis.py -u https://example.com
+*1️⃣ Terminal Mode*
+
+```
+python3 http_headers_analysis.py -u https://example.com
+```
 Output:
 ```
 URL: https://example.com
@@ -121,10 +123,11 @@ Total Risk Score: 7
 Risk Level: 🔴 HIGH
 ```
 
-2️⃣ Web Dashboard
+*2️⃣ Web Dashboard*
 Run the dashboard:
-
+```
 python3 -m streamlit run dashboard.py
+```
 
 View the interactive dashboard in your browser at http://localhost:8501.
 Upload a file of URLs (CSV/TXT) or type a URL directly.
@@ -139,7 +142,7 @@ Plotly	  :For bar and pie chart visualizations
 Pandas	  :For data manipulation (CSV/JSON)
 Colorama	:For color-coded terminal output
 
-📈 Key Features
+**📈 Key Features**
 
 Batch Scanning: Scan a list of URLs at once.
 Export Results: Export scan results to CSV or JSON.
@@ -147,12 +150,12 @@ Interactive Dashboard: See risk analysis and charts for each URL.
 Risk Weight Customization: Set priority for each header.
 Email Alerts: Get alerts for HIGH risk URLs.
 
-🚀 Future Enhancements
+**🚀 Future Enhancements**
 Advanced Email Alerts: Email daily reports of risky URLs.
 Scheduled Scans: Automatically run scans at regular intervals.
 Advanced Visualizations: Add charts for individual header presence.
 
-🤝 Contributing
+**🤝 Contributing**
 Want to contribute? Fork the repo and submit a pull request.
 Here’s how to get started:
 
@@ -161,5 +164,5 @@ Create a new branch (feature/your-feature-name).
 Make your changes and commit them.
 Submit a pull request for review.
 
-📜 License
+**📜 License**
 This project is licensed under the MIT License. Feel free to use, modify, and distribute it as you see fit.
