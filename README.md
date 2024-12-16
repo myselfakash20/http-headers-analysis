@@ -29,20 +29,23 @@ Professional Reports: Generate CSV/JSON reports for submission to bounty platfor
 1️⃣ Clone the Repository
 Clone the repository to your local machine using Git:
 
-
+```
 git clone https://github.com/yourusername/http-headers-analysis.git
 cd http-headers-analysis
+```
 2️⃣ Install Dependencies
 Install the required libraries by running:
 
-
+```
 pip install -r requirements.txt
+```
 Note: Make sure you have Python 3.7+ installed. If you encounter issues, try creating a virtual environment:
 
-
+```
 python -m venv venv
 source venv/bin/activate  # On Windows: .\venv\Scripts\activate
 pip install -r requirements.txt
+```
 
 **📋 How to Use It**
 
@@ -57,34 +60,37 @@ If you prefer working in the terminal, you can use http_headers_analysis.py.
 Scan a Single URL
 Run the following command in your terminal:
 
-
+```
 python3 http_headers_analysis.py -u https://example.com
+```
 Scan Multiple URLs
 If you have multiple URLs listed in a file (urls.txt), you can scan them all at once:
-
-
+```
 python3 http_headers_analysis.py -f urls.txt
+```
 Note: The file (e.g., urls.txt) should have one URL per line.
 
-Export Results
+***Export Results:***
 You can export the scan results to CSV or JSON:
 
-
+```
 python http_headers_analysis.py -f urls.txt -o csv  # Export to CSV
 python http_headers_analysis.py -f urls.txt -o json  # Export to JSON
-
+```
 `🔥 Option 2: Web-Based Mode (dashboard.py)`
 If you'd like a more interactive, user-friendly interface, use the Streamlit dashboard.
 
 Run the Dashboard
 Run the following command:
 
-
+```
 python3 -m streamlit run dashboard.py
-
+```
 This will launch a web-based dashboard.
 
-How to Use the Dashboard
+**How to Use the Dashboard**
+
+<ins>
 Enter a URL or Upload a File (CSV or TXT) with URLs.
 Customize Header Risk Weights: Set the priority (risk weight) for each header.
 Click "Scan URLs": The tool will scan and display the following:
@@ -98,7 +104,7 @@ Email Alerts (Optional)
 If any URLs have a HIGH risk, you can send an email alert.
 
 Note: You need to set up the email configuration in dashboard.py.
-
+</ins>
 📘 Example Usage
 
 1️⃣ Terminal Mode
