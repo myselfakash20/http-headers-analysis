@@ -1,0 +1,6 @@
+streamlit==1.41.1
+pandas==2.2.3
+requests==2.32.3
+plotly==5.17.0
+tabulate==0.9.0
+colorama==0.4.6
