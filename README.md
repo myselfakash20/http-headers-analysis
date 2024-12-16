@@ -3,7 +3,7 @@
 ## Overview
 The HTTP Headers Analysis tool helps identify and analyze HTTP headers in web traffic. It provides insight into security vulnerabilities related to the misconfiguration or improper handling of HTTP headers, which can lead to potential risks like:
 
-**Cross-Site Scripting (XSS)**
+**Cross-Site Scripting (XSS)** </br>
 **Clickjacking**
 **Sensitive Information Disclosure**
 
