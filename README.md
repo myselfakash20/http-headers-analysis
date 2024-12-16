@@ -4,27 +4,27 @@
 The HTTP Headers Analysis tool helps identify and analyze HTTP headers in web traffic. It provides insight into security vulnerabilities related to the misconfiguration or improper handling of HTTP headers, which can lead to potential risks like:
 
 **Cross-Site Scripting (XSS)** </br>
-**Clickjacking**
-**Sensitive Information Disclosure**
+**Clickjacking**</br>
+**Sensitive Information Disclosure**</br>
 
-This tool can detect issues such as missing security headers, misconfigured CORS policies, and server information leakage. The tool offers both:
+This tool can detect issues such as missing security headers, misconfigured CORS policies, and server information leakage. The tool offers both:</br>
 
-Command-Line Interface (CLI) via http_headers_analysis.py
-Web-Based Dashboard via dashboard.py
+Command-Line Interface (CLI) via http_headers_analysis.py</br>
+Web-Based Dashboard via dashboard.py</br>
 
-**🔥 How It Helps in Cybersecurity**
+**🔥 How It Helps in Cybersecurity**</br>
 
-HTTP headers play a critical role in the security of web applications. By analyzing them, security analysts can spot misconfigurations and vulnerabilities. Some key benefits of this tool are:
+HTTP headers play a critical role in the security of web applications. By analyzing them, security analysts can spot misconfigurations and vulnerabilities. Some key benefits of this tool are:</br>
 
-Detect Missing Headers: Identify missing headers like Content Security Policy (CSP), X-Content-Type-Options, and X-XSS-Protection, which are crucial for security.
-Spot Misconfigured CORS Headers: Detect overly permissive CORS headers that could allow unauthorized data sharing.
-Expose Security Issues: Reveal server information, framework details, and other sensitive information that could be exploited by attackers.
-💰 How It Helps in Bug Bounty
-This tool can help bug bounty hunters find vulnerabilities related to misconfigured HTTP headers, a common issue in bounty programs. Key benefits:
+Detect Missing Headers: Identify missing headers like Content Security Policy (CSP), X-Content-Type-Options, and X-XSS-Protection, which are crucial for security.</br>
+Spot Misconfigured CORS Headers: Detect overly permissive CORS headers that could allow unauthorized data sharing.</br>
+Expose Security Issues: Reveal server information, framework details, and other sensitive information that could be exploited by attackers.</br>
+**💰 How It Helps in Bug Bounty**</br>
+This tool can help bug bounty hunters find vulnerabilities related to misconfigured HTTP headers, a common issue in bounty programs. Key benefits:</br>
 
-Find Vulnerabilities Faster: Automate header scanning and reduce manual work.
-Focus on Important Headers: Identify weak headers and prioritize what to report.
-Professional Reports: Generate CSV/JSON reports for submission to bounty platforms.
+Find Vulnerabilities Faster: Automate header scanning and reduce manual work.</br>
+Focus on Important Headers: Identify weak headers and prioritize what to report.</br>
+Professional Reports: Generate CSV/JSON reports for submission to bounty platforms.</br>
 
 
 ***📦 Installation***
@@ -81,9 +81,9 @@ python http_headers_analysis.py -f urls.txt -o csv  # Export to CSV
 python http_headers_analysis.py -f urls.txt -o json  # Export to JSON
 ```
 `🔥 Option 2: Web-Based Mode (dashboard.py)`
-If you'd like a more interactive, user-friendly interface, use the Streamlit dashboard.
+If you'd like a more interactive, user-friendly interface, use the Streamlit dashboard.</br>
 
-Run the Dashboard
+Run the Dashboard</br>
 Run the following command:
 
 ```
@@ -94,17 +94,17 @@ This will launch a web-based dashboard.
 **How to Use the Dashboard**
 
 
-Enter a URL or Upload a File (CSV or TXT) with URLs.
-Customize Header Risk Weights: Set the priority (risk weight) for each header.
-Click "Scan URLs": The tool will scan and display the following:
-Interactive Table: Shows the missing/present headers for each URL.
-Bar Chart: Shows the risk score for each URL.
-Pie Chart: Compares the ratio of Present vs Missing headers.
-Export Results
+Enter a URL or Upload a File (CSV or TXT) with URLs.</br>
+Customize Header Risk Weights: Set the priority (risk weight) for each header.</br>
+Click "Scan URLs": The tool will scan and display the following.</br>
+Interactive Table: Shows the missing/present headers for each URL.</br>
+Bar Chart: Shows the risk score for each URL.</br>
+Pie Chart: Compares the ratio of Present vs Missing headers.</br>
+Export Results:</br>
 After the scan, you can export results as CSV or JSON.
 
-Email Alerts (Optional)
-If any URLs have a HIGH risk, you can send an email alert.
+Email Alerts (Optional)</br>
+If any URLs have a HIGH risk, you can send an email alert.</br>
 
 Note: You need to set up the email configuration in dashboard.py.
 
@@ -132,7 +132,7 @@ Run the dashboard:
 python3 -m streamlit run dashboard.py
 ```
 
-View the interactive dashboard in your browser at http://localhost:8501.
+View the interactive dashboard in your browser at http://localhost:8501.</br>
 Upload a file of URLs (CSV/TXT) or type a URL directly.
 
 
