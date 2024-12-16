@@ -105,14 +105,14 @@ Note: You need to set up the email configuration in dashboard.py.
 
 python http_headers_analysis.py -u https://example.com
 Output:
-
+```
 URL: https://example.com
 Strict-Transport-Security: Missing
 Content-Security-Policy: Present
 X-Frame-Options: Missing
 Total Risk Score: 7
 Risk Level: 🔴 HIGH
-
+```
 
 2️⃣ Web Dashboard
 Run the dashboard:
@@ -125,12 +125,12 @@ Upload a file of URLs (CSV/TXT) or type a URL directly.
 
 **🧑‍💻 Technologies Used**
 
-```Python	  :Core programming language
+Python	  :Core programming language
 Streamlit	:For the web-based dashboard
 Requests	:To make HTTP requests
 Plotly	  :For bar and pie chart visualizations
 Pandas	  :For data manipulation (CSV/JSON)
-Colorama	:For color-coded terminal output```
+Colorama	:For color-coded terminal output
 
 📈 Key Features
 
