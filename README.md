@@ -3,14 +3,17 @@
 ## Overview
 The HTTP Headers Analysis tool helps identify and analyze HTTP headers in web traffic. It provides insight into security vulnerabilities related to the misconfiguration or improper handling of HTTP headers, which can lead to potential risks like:
 
-Cross-Site Scripting (XSS)
-Clickjacking
-Sensitive Information Disclosure
+**Cross-Site Scripting (XSS)**
+**Clickjacking**
+**Sensitive Information Disclosure**
+
 This tool can detect issues such as missing security headers, misconfigured CORS policies, and server information leakage. The tool offers both:
 
 Command-Line Interface (CLI) via http_headers_analysis.py
 Web-Based Dashboard via dashboard.py
-🔥 How It Helps in Cybersecurity
+
+**🔥 How It Helps in Cybersecurity**
+
 HTTP headers play a critical role in the security of web applications. By analyzing them, security analysts can spot misconfigurations and vulnerabilities. Some key benefits of this tool are:
 
 Detect Missing Headers: Identify missing headers like Content Security Policy (CSP), X-Content-Type-Options, and X-XSS-Protection, which are crucial for security.
