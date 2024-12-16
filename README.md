@@ -19,6 +19,7 @@ HTTP headers play a critical role in the security of web applications. By analyz
 Detect Missing Headers: Identify missing headers like Content Security Policy (CSP), X-Content-Type-Options, and X-XSS-Protection, which are crucial for security.</br>
 Spot Misconfigured CORS Headers: Detect overly permissive CORS headers that could allow unauthorized data sharing.</br>
 Expose Security Issues: Reveal server information, framework details, and other sensitive information that could be exploited by attackers.</br>
+
 **💰 How It Helps in Bug Bounty**</br>
 This tool can help bug bounty hunters find vulnerabilities related to misconfigured HTTP headers, a common issue in bounty programs. Key benefits:</br>
 
@@ -54,7 +55,7 @@ pip install -r requirements.txt
 
 You can use the tool in two modes:
 
-Terminal Mode: Use the CLI tool (http_headers_analysis.py) for quick scans.
+Terminal Mode: Use the CLI tool (http_headers_analysis.py) for quick scans.</br>
 Web-Based Mode: Use the Streamlit-based dashboard (dashboard.py) for a visual, interactive experience.
 
 `🔥 Option 1: Terminal Mode (http_headers_analysis.py)`
@@ -101,7 +102,7 @@ Interactive Table: Shows the missing/present headers for each URL.</br>
 Bar Chart: Shows the risk score for each URL.</br>
 Pie Chart: Compares the ratio of Present vs Missing headers.</br>
 Export Results:</br>
-After the scan, you can export results as CSV or JSON.
+After the scan, you can export results as CSV or JSON.</br>
 
 Email Alerts (Optional)</br>
 If any URLs have a HIGH risk, you can send an email alert.</br>
@@ -147,25 +148,25 @@ Colorama	:For color-coded terminal output
 
 **📈 Key Features**
 
-Batch Scanning: Scan a list of URLs at once.
-Export Results: Export scan results to CSV or JSON.
-Interactive Dashboard: See risk analysis and charts for each URL.
-Risk Weight Customization: Set priority for each header.
-Email Alerts: Get alerts for HIGH risk URLs.
+Batch Scanning: Scan a list of URLs at once.</br>
+Export Results: Export scan results to CSV or JSON.</br>
+Interactive Dashboard: See risk analysis and charts for each URL.</br>
+Risk Weight Customization: Set priority for each header.</br>
+Email Alerts: Get alerts for HIGH risk URLs.</br>
 
 **🚀 Future Enhancements**
-Advanced Email Alerts: Email daily reports of risky URLs.
-Scheduled Scans: Automatically run scans at regular intervals.
-Advanced Visualizations: Add charts for individual header presence.
+Advanced Email Alerts: Email daily reports of risky URLs.</br>
+Scheduled Scans: Automatically run scans at regular intervals.</br>
+Advanced Visualizations: Add charts for individual header presence.</br>
 
 **🤝 Contributing**
-Want to contribute? Fork the repo and submit a pull request.
-Here’s how to get started:
+Want to contribute? Fork the repo and submit a pull request.</br>
+Here’s how to get started:</br>
 
-Fork the repo.
-Create a new branch (feature/your-feature-name).
-Make your changes and commit them.
-Submit a pull request for review.
+Fork the repo.</br>
+Create a new branch (feature/your-feature-name).</br>
+Make your changes and commit them.</br>
+Submit a pull request for review.</br>
 
 **📜 License**
 This project is licensed under the MIT License. Feel free to use, modify, and distribute it as you see fit.
