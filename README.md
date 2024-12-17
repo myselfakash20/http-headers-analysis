@@ -34,7 +34,7 @@ Professional Reports: Generate CSV/JSON reports for submission to bounty platfor
 Clone the repository to your local machine using Git:
 
 ```
-git clone https://github.com/yourusername/http-headers-analysis.git
+git clone https://github.com/myselfakash20/http-headers-analysis.git
 cd http-headers-analysis
 ```
 2️⃣ Install Dependencies
